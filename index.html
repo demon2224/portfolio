@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Anh Tuấn</title>
+  <meta name="description" content="Portfolio cá nhân của Anh Tuấn – Lập trình viên & thiết kế, dự án, kỹ năng, học vấn và liên hệ." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="logo">Anh<span>Tuấn</span></a>
+      <button class="nav-toggle" aria-label="Mở menu" id="navToggle">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-outline" href="assets/CE180905_Ky Thuat Phan Mem_Le Anh Tuan.pdf" download>⬇ CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="top">
+      <div class="hero__text">
+        <h1 class="reveal">Hey! Mình là <span>Anh Tuấn</span> 👋</h1>
+        <p class="muted reveal">Lập trình viên Full-stack & Thiết kế giao diện, yêu thích Java, SQL, Web và UX/UI.</p>
+        <p class="muted reveal">Mình đam mê tạo ra những sản phẩm vừa hiệu quả về kỹ thuật, vừa đẹp về trải nghiệm người dùng.</p>
+        <div class="hero__cta reveal">
+          <a class="btn" href="#projects">Xem dự án</a>
+          <a class="btn btn-outline" href="assets/CE180905_Ky Thuat Phan Mem_Le Anh Tuan.pdf" download>Tải CV PDF</a>
+        </div>
+      </div>
+      <div class="hero__art reveal">
+        <img src="assets/avatar.jpg" alt="Avatar Anh Tuấn" />
+      </div>
+    </section>
+
+    
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2 class="section__title reveal">About Me</h2>
+      <p class="section__desc reveal">
+        Mình là sinh viên ngành Kỹ thuật phần mềm tại FPT University, yêu thích việc xây dựng ứng dụng web hoàn chỉnh từ backend đến frontend.
+        Mình chú trọng vào trải nghiệm người dùng, hiệu năng hệ thống và tính ổn định của sản phẩm.
+        Ngoài lập trình, mình cũng quan tâm đến thiết kế giao diện và định hướng trải nghiệm người dùng (UI/UX).
+      </p>
+      <ul class="about__bullets reveal">
+        <li>💻 Tech: C, C#, Java (JSP/Servlet), Spring Basics, HTML/CSS/JS, SQL Server</li>
+        <li>🧩 Workflow: Git (branch, PR), GitHub Pages, teamwork trên GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section__title reveal">Skills</h2>
+      <div class="skills__grid">
+        <div class="card reveal">
+          <h3>Lập trình</h3>
+          <ul>
+            <li>C, C# cơ bản</li>
+            <li>Java, JSP/Servlet</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>OOP cơ bản</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3>Database</h3>
+          <ul>
+            <li>SQL Server</li>
+            <li>Thiết kế ERD, Index, View</li>
+            <li>Truy vấn tối ưu cơ bản</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3>UI/UX & Tools</h3>
+          <ul>
+            <li>Figma/AI cơ bản</li>
+            <li>Responsive, Grid/Flexbox</li>
+            <li>Version control (Git)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section__title reveal">Projects</h2>
+      <div class="projects__grid">
+
+        <article class="project card reveal">
+          <img src="assets/snakehunt.jpg" alt="Snake Hunt" class="project__thumb" />
+          <div class="project__body">
+            <h3>Snake Hunt - Java Swing</h3>
+            <p>Trò chơi "Rắn săn mồi" được phát triển bằng Java Swing với giao diện đẹp mắt, điều khiển mượt mà và hệ thống va chạm hoàn chỉnh. Áp dụng OOP để tối ưu logic game.</p>
+            <div class="project__meta">
+              <span class="tag">Java</span><span class="tag">Swing</span><span class="tag">OOP</span>
+            </div>
+            <div class="project__links">
+              <a class="btn btn-sm" href="https://github.com/demon2224/SnakeHunt" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card reveal">
+          <img src="assets/clothes.jpg" alt="Clothes Shop Website" class="project__thumb" />
+          <div class="project__body">
+            <h3>Clothes Shop Website</h3>
+            <p>Website bán quần áo trực tuyến được xây dựng bằng Java Web (JSP/Servlet + SQL Server). Chức năng CRUD hoàn chỉnh, giỏ hàng, thanh toán và áp dụng mô hình MVC.</p>
+            <div class="project__meta">
+              <span class="tag">Java Web</span><span class="tag">JSP/Servlet</span><span class="tag">SQL Server</span>
+            </div>
+            <div class="project__links">
+              <a class="btn btn-sm" href="https://github.com/demon2224/ClothesShop" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div> 
+        </article>
+
+        <article class="project card reveal">
+          <img src="assets/clinic.jpg" alt="Clinic Booking Website" class="project__thumb" />
+          <div class="project__body">
+            <h3>Clinic Booking Website</h3>
+            <p>Hệ thống đặt lịch khám trực tuyến (dự án nhóm) với Java Web. Quản lý đầy đủ lịch hẹn, hồ sơ bệnh nhân, bác sĩ và đơn thuốc. Teamwork qua GitHub.</p>
+            <div class="project__meta">
+              <span class="tag">Java Web</span><span class="tag">JSP/Servlet</span><span class="tag">SQL Server</span><span class="tag">GitHub</span>
+            </div>
+            <div class="project__links">
+              <a class="btn btn-sm" href="https://github.com/demon2224/ClinicBooking" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section container">
+      <h2 class="section__title reveal">Education</h2>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div>
+            <h3>FPT University — Information Technology</h3>
+            <p class="muted">2023 – nay</p>
+            <p>Sinh viên năm 3 chuyên ngành Kỹ Thuật Phần Mềm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certificates" class="section container">
+      <h2 class="section__title reveal">Certificate</h2>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div>
+            <h3>FPT - 11/2023</h3>
+            <p>ACADEMIC PREPARATORY ENGLISH</p>
+            <p>Level 6- Summit 2</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div>
+            <h3>Coursera - 2/2025</h3>
+            <p>Web Design for Everybody: Basics of Web Development & Coding</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div>
+            <h3>Coursera - 7/2025</h3>
+            <p>Software Development Lifecycle</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div>
+            <h3>Coursera - 10/2025</h3>
+            <p>User Experience Research and Design</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2 class="section-_title reveal">Contact</h2>
+      <div class="contact__grid">
+        <div class="card reveal">
+          <h3>Liên hệ nhanh</h3>
+          <ul class="contact__list">
+            <li>📧 Email: <a href="mailto:tuanleanh15052004@gmail.com">tuanleanh15052004@gmail.com</a></li>
+            <li>📧 Email Edu: <a href="mailto:tuanlace180905@fpt.edu.vn">tuanlace180905@fpt.edu.vn</a></li>
+            <li>🐙 GitHub: <a href="https://github.com/demon2224" target="_blank" rel="noopener">@demon2224</a></li>
+            <li>💼 Facebook: <a href="https://www.facebook.com/tuan.anh.1554/" target="_blank" rel="noopener">Anh Tuan (demon)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Anh Tuấn. Made with ❤</p>
+      <a href="#top" class="to-top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
